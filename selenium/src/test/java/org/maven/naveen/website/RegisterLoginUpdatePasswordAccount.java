@@ -11,9 +11,16 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class RegisterAccount {
+public class RegisterLoginUpdatePasswordAccount {
 	WebDriver wd;
 	WebDriverWait wait;
+	String userInputEmailId;
+	String userInputPassword;
+
+	public RegisterLoginUpdatePasswordAccount() {
+		userInputEmailId = "nishaAbishek@email.com";
+		userInputPassword = "Password@222";
+	}
 
 	@BeforeMethod
 	public void setUp() {
@@ -24,7 +31,7 @@ public class RegisterAccount {
 		wait = new WebDriverWait(wd, 10);
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void register() {
 		WebElement myAccountMenu = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//a[@title='My Account' and @class='dropdown-toggle']")));
@@ -45,9 +52,9 @@ public class RegisterAccount {
 		String retrieveLastName = lastName.getAttribute("value");
 		Assert.assertEquals(retrieveLastName, "Mohandas", "Last Name is not correct");
 		WebElement emailID = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-email")));
-		emailID.sendKeys("nishaMohandas@email.com");
+		emailID.sendKeys(userInputEmailId);
 		String retrieveEmailID = emailID.getAttribute("value");
-		Assert.assertEquals(retrieveEmailID, "nishaMohandas@email.com", "Email is not correct");
+		Assert.assertEquals(retrieveEmailID, userInputEmailId, "Email is not correct");
 		WebElement telephone = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-telephone")));
 		telephone.sendKeys("1234567890");
@@ -55,14 +62,14 @@ public class RegisterAccount {
 		Assert.assertEquals(retrieveTelephone, "1234567890", "Telephone number is not correct");
 		WebElement password = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-password")));
-		password.sendKeys("Password@5");
+		password.sendKeys(userInputPassword);
 		String retrievePassword = password.getAttribute("value");
-		Assert.assertEquals(retrievePassword, "Password@5", "Password is not correct");
+		Assert.assertEquals(retrievePassword, userInputPassword, "Password is not correct");
 		WebElement confirmPassword = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-confirm")));
-		confirmPassword.sendKeys("Password@5");
+		confirmPassword.sendKeys(userInputPassword);
 		String retrieveConfirmPassword = confirmPassword.getAttribute("value");
-		Assert.assertEquals(retrieveConfirmPassword, "Password@5", "Confirm Password is not correct");
+		Assert.assertEquals(retrieveConfirmPassword, userInputPassword, "Confirm Password is not correct");
 		WebElement radioButton = wait.until(ExpectedConditions.elementToBeClickable(wd.findElement(
 				By.xpath("(//div[@class='col-sm-10']//label[@class='radio-inline'])[2]//input[@name='newsletter']"))));
 		radioButton.click();
@@ -93,7 +100,7 @@ public class RegisterAccount {
 
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void login() {
 		WebElement myAccountMenu = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//a[@title='My Account' and @class='dropdown-toggle']")));
@@ -103,14 +110,14 @@ public class RegisterAccount {
 		boolean isTitleOnLogin = wait.until(ExpectedConditions.titleIs("Account Login"));
 		Assert.assertTrue(isTitleOnLogin, "Wrong page loaded");
 		WebElement username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-email")));
-		username.sendKeys("nishaMohandas@email.com");
+		username.sendKeys(userInputEmailId);
 		String retrieveLastName = username.getAttribute("value");
-		Assert.assertEquals(retrieveLastName, "nishaMohandas@email.com", "Username is not correct");
+		Assert.assertEquals(retrieveLastName, userInputEmailId, "Username is not correct");
 		WebElement password = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-password")));
-		password.sendKeys("Password@5");
+		password.sendKeys(userInputPassword);
 		String retrievePassword = password.getAttribute("value");
-		Assert.assertEquals(retrievePassword, "Password@5", "Password is not correct");
+		Assert.assertEquals(retrievePassword, userInputPassword, "Password is not correct");
 		WebElement loginButton = wait
 				.until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//input[@value='Login']"))));
 		boolean isContinue = loginButton.isDisplayed();
@@ -120,7 +127,7 @@ public class RegisterAccount {
 		Assert.assertTrue(isTitleAfterLogin, "Wrong page is loaded");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void updatePassword() {
 		login();
 		WebElement changePassword = wait.until(ExpectedConditions
@@ -133,13 +140,13 @@ public class RegisterAccount {
 		WebElement inputPassword = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-password")));
 		inputPassword.sendKeys("Password@5");
-		String retrieveChangePassword = inputPassword.getAttribute("value");
-		Assert.assertEquals(retrieveChangePassword, "Password@5", "Password is not correct");
+		userInputPassword = inputPassword.getAttribute("value");
+		Assert.assertEquals(userInputPassword, "Password@5", "Password is not correct");
 		WebElement confirmPassword = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-confirm")));
 		confirmPassword.sendKeys("Password@5");
-		String retrieveConfirmPassword = confirmPassword.getAttribute("value");
-		Assert.assertEquals(retrieveConfirmPassword, "Password@5", "Confirm Password is not correct");
+		userInputPassword = confirmPassword.getAttribute("value");
+		Assert.assertEquals(userInputPassword, "Password@5", "Confirm Password is not correct");
 		WebElement continueButtonOnPasswordUpdate = wait
 				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@value='Continue']")));
 		boolean isContinueOnChangePassword = continueButtonOnPasswordUpdate.isDisplayed();
@@ -164,30 +171,8 @@ public class RegisterAccount {
 		logoutContinue.click();
 		boolean isLogoutToHome = wait.until(ExpectedConditions.titleIs("Your Store"));
 		Assert.assertTrue(isLogoutToHome, "Wrong page is loaded");
-		// Login Again
-		WebElement myAccount = wait.until(ExpectedConditions
-				.elementToBeClickable(By.xpath("//a[@title='My Account' and @class='dropdown-toggle']")));
-		myAccount.click();
-		WebElement loginTab = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Login']")));
-		loginTab.click();
-		boolean isTitleOnLogin = wait.until(ExpectedConditions.titleIs("Account Login"));
-		Assert.assertTrue(isTitleOnLogin, "Wrong page loaded");
-		WebElement username = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-email")));
-		username.sendKeys("nisha3@email.com");
-		String retrieveLastName = username.getAttribute("value");
-		Assert.assertEquals(retrieveLastName, "nishaMohandas@email.com", "Username is not correct");
-		WebElement password = wait
-				.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#input-password")));
-		password.sendKeys("Password@5");
-		String retrievePassword = password.getAttribute("value");
-		Assert.assertEquals(retrievePassword, "Password@5", "Password is not correct");
-		WebElement loginButton = wait
-				.until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//input[@value='Login']"))));
-		boolean isContinue = loginButton.isDisplayed();
-		Assert.assertTrue(isContinue, "Login button is not displayed");
-		loginButton.submit();
-		boolean isTitleAfterLogin = wait.until(ExpectedConditions.titleIs("My Account"));
-		Assert.assertTrue(isTitleAfterLogin, "Wrong page is loaded");
+		// Login Again with updated password
+		login();
 	}
 
 	@AfterMethod
