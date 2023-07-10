@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 
 import com.naveenautomationlabs.NaveenAutomationFramework.Listener.WebdriverEvent;
+import com.naveenautomationlabs.NaveenAutomationFramework.Utils.Browser;
 import com.naveenautomationlabs.NaveenAutomationFramework.Utils.Environment;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -27,7 +28,7 @@ public class TestBase {
 	public static Logger logger;
 	private WebdriverEvent event;
 	private EventFiringWebDriver fireWebDriver;
-	// private Browser BROWSER = Browser.CHROME;
+	private Browser BROWSER = Browser.CHROME;
 	private Environment ENV = Environment.PROD;
 
 	public TestBase() {
@@ -56,8 +57,8 @@ public class TestBase {
 	}
 
 	public void initialisation() {
-		String browserName = System.getenv("BrowserName");
-		switch (browserName) {
+		//String browserName = System.getenv("BrowserName");
+		switch (BROWSER.getValue()) {
 		case "chrome":
 			wd = WebDriverManager.chromedriver().create();
 			break;
