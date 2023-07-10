@@ -59,13 +59,13 @@ public class TestBase {
 	public void initialisation() {
 		//String browserName = System.getenv("BrowserName");
 		switch (BROWSER.getValue()) {
-		case "chrome":
+		case "Chrome":
 			wd = WebDriverManager.chromedriver().create();
 			break;
-		case "edge":
+		case "Edge":
 			wd = WebDriverManager.edgedriver().create();
 			break;
-		case "firefox":
+		case "Firefox":
 			wd = WebDriverManager.firefoxdriver().create();
 			break;
 		default:
