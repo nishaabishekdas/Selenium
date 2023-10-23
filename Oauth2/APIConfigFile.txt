@@ -1,0 +1,3 @@
+Client Id: ba0e644545524576a7ac73041f60b1c6
+Secret Key: 1152bbe165fc4c5e8c0f9050604b44ee
+Redirect URI: https://pivotcoachingacademy.ca/

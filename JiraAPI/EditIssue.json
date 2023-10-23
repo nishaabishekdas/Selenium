@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "entry fails when selecting Login.",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    }
+}
+}

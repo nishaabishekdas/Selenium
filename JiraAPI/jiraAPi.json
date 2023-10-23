@@ -1,0 +1,26 @@
+{
+   "fields": {  
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "Username accepts space",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
+    "issuetype": {
+      "id": 10003
+    },
+    "project": {
+      "id": 10000
+    },
+    "summary": "Login username accepts space"
+  }
+}

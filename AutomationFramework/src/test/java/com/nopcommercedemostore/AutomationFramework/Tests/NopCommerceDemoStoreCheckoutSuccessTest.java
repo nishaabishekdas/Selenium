@@ -1,20 +1,20 @@
-package com.naveenautomationlab.AutomationFramework.Tests;
+package com.nopcommercedemostore.AutomationFramework.Tests;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.naveenautomationlab.AutomationFramework.base.TestBase;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStore;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreCellPhones;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreCheckout;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreCheckoutSuccess;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreHtcOneMiniBlue;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreLogin;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreRegister;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreRegisterResult;
-import com.naveenautomationlab.AutomationFramework.pages.NopCommerceDemoStoreShoppingCart;
+import com.nopcommercedemostore.AutomationFramework.base.TestBase;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStore;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreCellPhones;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreCheckout;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreCheckoutSuccess;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreHtcOneMiniBlue;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreLogin;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreRegister;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreRegisterResult;
+import com.nopcommercedemostore.AutomationFramework.pages.NopCommerceDemoStoreShoppingCart;
 
 public class NopCommerceDemoStoreCheckoutSuccessTest extends TestBase {
 	NopCommerceDemoStore homePage;
@@ -39,7 +39,7 @@ public class NopCommerceDemoStoreCheckoutSuccessTest extends TestBase {
 		registerSuccessPage = registerPage.registerUserAccount();
 		homePage = registerSuccessPage.clickRegistrationSuccessContinueBtn();
 		loginPage = homePage.clickLoginButton();
-		homePage=loginPage.loginToPortal(registerPage.getEmailId());
+		homePage = loginPage.loginToPortal(registerPage.getEmailId());
 		cellPhonePage = homePage.clickCellPhoneBtnInDrpDwn();
 		htcPhonePage = cellPhonePage.htcOneMiniBlueLinkclick();
 		shoppingCartPage = htcPhonePage.clickShoppingCartLink();

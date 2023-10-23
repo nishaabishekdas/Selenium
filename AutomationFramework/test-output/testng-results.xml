@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-21T19:28:02 EDT" name="Default suite" finished-at="2023-06-21T19:28:20 EDT" duration-ms="18276">
+    <groups>
+    </groups>
+    <test started-at="2023-06-21T19:28:02 EDT" name="Default test" finished-at="2023-06-21T19:28:20 EDT" duration-ms="18276">
+      <class name="com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest">
+        <test-method is-config="true" signature="setUpLogger()[pri:0, instance:com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest@611889f4]" started-at="2023-06-21T19:28:02 EDT" name="setUpLogger" finished-at="2023-06-21T19:28:02 EDT" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpLogger -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest@611889f4]" started-at="2023-06-21T19:28:02 EDT" name="setUp" finished-at="2023-06-21T19:28:06 EDT" duration-ms="4169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCheckOut()[pri:0, instance:com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest@611889f4]" started-at="2023-06-21T19:28:06 EDT" name="validateCheckOut" finished-at="2023-06-21T19:28:20 EDT" duration-ms="13771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCheckOut -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest@611889f4]" started-at="2023-06-21T19:28:20 EDT" name="quit" finished-at="2023-06-21T19:28:20 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.naveenautomationlab.AutomationFramework.Tests.NopCommerceDemoStoreCheckoutSuccessTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

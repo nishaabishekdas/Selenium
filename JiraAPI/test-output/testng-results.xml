@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T22:10:39Z" name="Suite" finished-at="2023-08-02T22:10:43Z" duration-ms="4774">
+    <groups>
+    </groups>
+    <test started-at="2023-08-02T22:10:39Z" name="Test" finished-at="2023-08-02T22:10:43Z" duration-ms="4774">
+      <class name="com.jiraapiautomation.JiraAPI.tests.EditIssueMetaDataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.EditIssueMetaDataTest@6d026701]" started-at="2023-08-02T22:10:42Z" name="setUp" finished-at="2023-08-02T22:10:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="extractEditIssueMetaData(org.testng.ITestContext)[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.EditIssueMetaDataTest@6d026701]" started-at="2023-08-02T22:10:42Z" name="extractEditIssueMetaData" finished-at="2023-08-02T22:10:42Z" duration-ms="638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58783f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractEditIssueMetaData -->
+      </class> <!-- com.jiraapiautomation.JiraAPI.tests.EditIssueMetaDataTest -->
+      <class name="com.jiraapiautomation.JiraAPI.tests.CreateIssueTest">
+        <test-method signature="verifyCreateIssueFromMetaData(org.testng.ITestContext)[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.CreateIssueTest@5cdec700]" started-at="2023-08-02T22:10:41Z" name="verifyCreateIssueFromMetaData" finished-at="2023-08-02T22:10:42Z" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58783f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateIssueFromMetaData -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.CreateIssueTest@5cdec700]" started-at="2023-08-02T22:10:41Z" name="setUp" finished-at="2023-08-02T22:10:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.jiraapiautomation.JiraAPI.tests.CreateIssueTest -->
+      <class name="com.jiraapiautomation.JiraAPI.tests.DeleteIssueTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.DeleteIssueTest@1f75a668]" started-at="2023-08-02T22:10:43Z" name="setUp" finished-at="2023-08-02T22:10:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDeleteIssue(org.testng.ITestContext)[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.DeleteIssueTest@1f75a668]" started-at="2023-08-02T22:10:43Z" name="validateDeleteIssue" finished-at="2023-08-02T22:10:43Z" duration-ms="458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58783f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteIssue -->
+      </class> <!-- com.jiraapiautomation.JiraAPI.tests.DeleteIssueTest -->
+      <class name="com.jiraapiautomation.JiraAPI.tests.CreateIssueMetaDataTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.CreateIssueMetaDataTest@30c8681]" started-at="2023-08-02T22:10:39Z" name="setUp" finished-at="2023-08-02T22:10:39Z" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="extractProductIdIssueId(org.testng.ITestContext)[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.CreateIssueMetaDataTest@30c8681]" started-at="2023-08-02T22:10:39Z" name="extractProductIdIssueId" finished-at="2023-08-02T22:10:41Z" duration-ms="1670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58783f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractProductIdIssueId -->
+      </class> <!-- com.jiraapiautomation.JiraAPI.tests.CreateIssueMetaDataTest -->
+      <class name="com.jiraapiautomation.JiraAPI.tests.EditIssueTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.EditIssueTest@78aa1f72]" started-at="2023-08-02T22:10:42Z" name="setUp" finished-at="2023-08-02T22:10:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateEditIssue(org.testng.ITestContext)[pri:0, instance:com.jiraapiautomation.JiraAPI.tests.EditIssueTest@78aa1f72]" started-at="2023-08-02T22:10:42Z" name="validateEditIssue" finished-at="2023-08-02T22:10:43Z" duration-ms="499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58783f6c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditIssue -->
+      </class> <!-- com.jiraapiautomation.JiraAPI.tests.EditIssueTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

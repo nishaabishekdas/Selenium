@@ -1,0 +1,327 @@
+2023-06-21 19:28:05 INFO  TestBase:39 - Navigating to URL: https://demo.nopcommerce.com/
+2023-06-21 19:28:06 INFO  TestBase:45 - Navigated to URL: https://demo.nopcommerce.com/
+2023-06-21 19:28:06 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:06 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:06 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:06 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:06 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:06 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:first-of-type a
+2023-06-21 19:28:07 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.header-links li:first-of-type a]
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #gender-female
+2023-06-21 19:28:07 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #gender-female]
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #FirstName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: #LastName
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthDay']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "29"]
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "29"]
+2023-06-21 19:28:07 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.date-picker-wrapper>select[name='DateOfBirthDay']]] -> xpath: .//option[@value = "29"]]
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthMonth']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "4"]
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "4"]
+2023-06-21 19:28:07 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.date-picker-wrapper>select[name='DateOfBirthMonth']]] -> xpath: .//option[@value = "4"]]
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:07 INFO  TestBase:87 - Finding Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: div.date-picker-wrapper>select[name='DateOfBirthYear']
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "1993"]
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "1993"]
+2023-06-21 19:28:08 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.date-picker-wrapper>select[name='DateOfBirthYear']]] -> xpath: .//option[@value = "1993"]]
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Company
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: input[id='Newsletter']
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: input[id='Newsletter']
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: input[id='Newsletter']
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: input[id='Newsletter']
+2023-06-21 19:28:08 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: input[id='Newsletter']]
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #ConfirmPassword
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #register-button
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #register-button
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #register-button
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #register-button
+2023-06-21 19:28:08 INFO  TestBase:87 - Finding Element: By.cssSelector: #register-button
+2023-06-21 19:28:08 INFO  TestBase:93 - Found Element: By.cssSelector: #register-button
+2023-06-21 19:28:09 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #register-button]
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.buttons a
+2023-06-21 19:28:09 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.buttons a]
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: div.header-links li:nth-of-type(2) a
+2023-06-21 19:28:09 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.header-links li:nth-of-type(2) a]
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:09 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:09 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: #Email
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: #Email
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: #Password
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: div.returning-wrapper>form div.buttons button
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:93 - Found Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>a
+2023-06-21 19:28:10 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>ul:first-of-type li:nth-of-type(2) a
+2023-06-21 19:28:11 INFO  TestBase:93 - Found Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>ul:first-of-type li:nth-of-type(2) a
+2023-06-21 19:28:11 INFO  TestBase:87 - Finding Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>ul:first-of-type li:nth-of-type(2) a
+2023-06-21 19:28:11 INFO  TestBase:93 - Found Element: By.cssSelector: ul.notmobile>li:nth-of-type(2)>ul:first-of-type li:nth-of-type(2) a
+2023-06-21 19:28:11 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: ul.notmobile>li:nth-of-type(2)>ul:first-of-type li:nth-of-type(2) a]
+2023-06-21 19:28:11 INFO  TestBase:87 - Finding Element: By.cssSelector: div.item-grid>div:nth-of-type(2) h2:first-of-type a
+2023-06-21 19:28:11 INFO  TestBase:93 - Found Element: By.cssSelector: div.item-grid>div:nth-of-type(2) h2:first-of-type a
+2023-06-21 19:28:11 INFO  TestBase:87 - Finding Element: By.cssSelector: div.item-grid>div:nth-of-type(2) h2:first-of-type a
+2023-06-21 19:28:11 INFO  TestBase:93 - Found Element: By.cssSelector: div.item-grid>div:nth-of-type(2) h2:first-of-type a
+2023-06-21 19:28:12 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.item-grid>div:nth-of-type(2) h2:first-of-type a]
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: div.add-to-cart-panel #add-to-cart-button-19
+2023-06-21 19:28:12 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: div.add-to-cart-panel #add-to-cart-button-19]
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:87 - Finding Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:12 INFO  TestBase:93 - Found Element: By.cssSelector: #bar-notification a
+2023-06-21 19:28:13 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #bar-notification a]
+2023-06-21 19:28:13 INFO  TestBase:87 - Finding Element: By.cssSelector: input[name='termsofservice']
+2023-06-21 19:28:13 INFO  TestBase:93 - Found Element: By.cssSelector: input[name='termsofservice']
+2023-06-21 19:28:13 INFO  TestBase:87 - Finding Element: By.cssSelector: input[name='termsofservice']
+2023-06-21 19:28:13 INFO  TestBase:93 - Found Element: By.cssSelector: input[name='termsofservice']
+2023-06-21 19:28:13 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: input[name='termsofservice']]
+2023-06-21 19:28:13 INFO  TestBase:87 - Finding Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:13 INFO  TestBase:93 - Found Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:13 INFO  TestBase:87 - Finding Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:13 INFO  TestBase:93 - Found Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:13 INFO  TestBase:87 - Finding Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:13 INFO  TestBase:93 - Found Element: By.cssSelector: button[name='checkout']
+2023-06-21 19:28:14 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: button[name='checkout']]
+2023-06-21 19:28:14 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:14 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:14 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:14 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:14 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:14 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_FirstName
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_LastName
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Email
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Company
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_CountryId
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "158"]
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "158"]
+2023-06-21 19:28:15 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #BillingNewAddress_CountryId]] -> xpath: .//option[@value = "158"]]
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_City
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_Address1
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:15 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:15 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_ZipPostalCode
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #BillingNewAddress_PhoneNumber
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #billing-buttons-container button:last-of-type
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #billing-buttons-container button:last-of-type
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #billing-buttons-container button:last-of-type
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #billing-buttons-container button:last-of-type
+2023-06-21 19:28:16 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #billing-buttons-container button:last-of-type]
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #shippingoption_0
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #shippingoption_0
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #shippingoption_0
+2023-06-21 19:28:16 INFO  TestBase:87 - Finding Element: By.cssSelector: #shippingoption_0
+2023-06-21 19:28:16 INFO  TestBase:93 - Found Element: By.cssSelector: #shippingoption_0
+2023-06-21 19:28:17 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #shippingoption_0]
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #shipping-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #shipping-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #shipping-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #shipping-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #shipping-method-buttons-container button]
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #paymentmethod_1
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #paymentmethod_1
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #paymentmethod_1
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #paymentmethod_1
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #paymentmethod_1
+2023-06-21 19:28:17 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #paymentmethod_1]
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #payment-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #payment-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #payment-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:93 - Found Element: By.cssSelector: #payment-method-buttons-container button
+2023-06-21 19:28:17 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #payment-method-buttons-container button]
+2023-06-21 19:28:17 INFO  TestBase:87 - Finding Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CreditCardType
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "visa"]
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "visa"]
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardholderName
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CardholderName
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardholderName
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CardholderName
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardNumber
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CardNumber
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardNumber
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CardNumber
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireMonth
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "8"]
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "8"]
+2023-06-21 19:28:18 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #ExpireMonth]] -> xpath: .//option[@value = "8"]]
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #ExpireYear
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.xpath: .//option[@value = "2033"]
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.xpath: .//option[@value = "2033"]
+2023-06-21 19:28:18 INFO  TestBase:105 - Clicked ON: [[[[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #ExpireYear]] -> xpath: .//option[@value = "2033"]]
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardCode
+2023-06-21 19:28:18 INFO  TestBase:93 - Found Element: By.cssSelector: #CardCode
+2023-06-21 19:28:18 INFO  TestBase:87 - Finding Element: By.cssSelector: #CardCode
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #CardCode
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: #payment-info-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #payment-info-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: #payment-info-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #payment-info-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #payment-info-buttons-container button]
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:93 - Found Element: By.cssSelector: #confirm-order-buttons-container button
+2023-06-21 19:28:19 INFO  TestBase:105 - Clicked ON: [[ChromeDriver: chrome on WINDOWS (4dd510c75ef1cb52d7bc7b3f40068c23)] -> css selector: #confirm-order-buttons-container button]
+2023-06-21 19:28:19 INFO  TestBase:87 - Finding Element: By.cssSelector: div.order-completed>div.title strong
+2023-06-21 19:28:20 INFO  TestBase:87 - Finding Element: By.cssSelector: div.order-completed>div.title strong
+2023-06-21 19:28:20 INFO  TestBase:93 - Found Element: By.cssSelector: div.order-completed>div.title strong
+2023-06-21 19:28:20 INFO  TestBase:87 - Finding Element: By.cssSelector: div.order-completed>div.title strong
+2023-06-21 19:28:20 INFO  TestBase:93 - Found Element: By.cssSelector: div.order-completed>div.title strong
+2023-06-21 19:28:20 INFO  TestBase:171 - Got Text: Your order has been successfully processed!

@@ -1,4 +1,4 @@
-package com.naveenautomationlab.AutomationFramework.pages;
+package com.nopcommercedemostore.AutomationFramework.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-import com.naveenautomationlab.AutomationFramework.base.TestBase;
+import com.nopcommercedemostore.AutomationFramework.base.TestBase;
 
 public class NopCommerceDemoStoreCheckout extends TestBase {
 	Select sc;

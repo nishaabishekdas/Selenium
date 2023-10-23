@@ -1,6 +1,6 @@
-package com.naveenautomationlab.AutomationFramework.Tests;
+package com.nopcommercedemostore.AutomationFramework.Tests;
 
-import com.naveenautomationlab.AutomationFramework.base.TestBase;
+import com.nopcommercedemostore.AutomationFramework.base.TestBase;
 
 public class NopCommerceDemoStoreLoginTest extends TestBase{
 

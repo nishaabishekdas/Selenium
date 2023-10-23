@@ -100,7 +100,7 @@ public class RegisterLoginUpdatePasswordAccount {
 
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2,dependsOnMethods = "register")
 	public void login() {
 		WebElement myAccountMenu = wait.until(ExpectedConditions
 				.elementToBeClickable(By.xpath("//a[@title='My Account' and @class='dropdown-toggle']")));
@@ -127,7 +127,7 @@ public class RegisterLoginUpdatePasswordAccount {
 		Assert.assertTrue(isTitleAfterLogin, "Wrong page is loaded");
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,dependsOnMethods = "login")
 	public void updatePassword() {
 		login();
 		WebElement changePassword = wait.until(ExpectedConditions
